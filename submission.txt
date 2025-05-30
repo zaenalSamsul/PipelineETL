@@ -1,0 +1,31 @@
+📦 INSTALASI DEPENDENCY
+----------------------------------------
+Jalankan perintah berikut untuk menginstal semua dependency:
+> pip install -r requirements.txt
+
+
+🚀 MENJALANKAN APLIKASI UTAMA
+----------------------------------------
+Untuk menjalankan aplikasi:
+> python main.py
+
+
+🧪 MENJALANKAN UNIT TEST
+----------------------------------------
+Menjalankan seluruh unit test yang ada di folder `tests/`:
+> python -m unittest discover tests
+
+
+📊 MENJALANKAN TEST COVERAGE
+----------------------------------------
+Menjalankan pengujian dengan pelacakan cakupan kode:
+> coverage run -m unittest discover tests
+
+Melihat hasil report test coverage secara detail:
+> coverage report -m
+
+
+📄 GOOGLE SHEETS - DATA / DOKUMENTASI
+----------------------------------------
+Akses file Google Sheets melalui link berikut:
+https://docs.google.com/spreadsheets/d/1usfdnQzhMZPLcES3sMVkbbbvvC__BMTNzZHwcblziZE/edit?usp=sharing
